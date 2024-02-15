@@ -25,7 +25,7 @@ jobs:
     - name: Download file
       uses: actions/download-artifact@v2  
       with:
-        path: hello.txt
+        path: ./artifacts
 
     - name: Display text
       run: |

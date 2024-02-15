@@ -28,4 +28,8 @@ jobs:
         path: ./artifacts
 
     - name: Display text
-      run: cat /artifacts/hello.txt
+      run: |
+          pwd
+          ls
+          cd artifacts
+          cat /hello.txt

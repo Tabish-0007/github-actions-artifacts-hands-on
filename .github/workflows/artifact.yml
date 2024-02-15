@@ -25,13 +25,11 @@ jobs:
     - name: Download file
       uses: actions/download-artifact@v2  
       with:
-        path: ./artifacts/hello.txt
+        path: hello.txt
 
     - name: Display text
       run: |
           pwd
           ls
-          cd artifacts
-          ls
           pwd
-          cat hello.txt
+          cat ./artifacts/hello.txt

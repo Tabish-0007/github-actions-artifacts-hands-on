@@ -32,4 +32,6 @@ jobs:
           pwd
           ls
           cd artifacts
-          cat /hello.txt
+          ls
+          pwd
+          cat hello.txt
